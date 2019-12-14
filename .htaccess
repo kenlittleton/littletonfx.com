@@ -1,0 +1,7 @@
+# Hide files starting with a dot
+<Files .*>
+order allow,deny
+deny from all
+</Files>
+
+AddType video/mp4 .F4V
